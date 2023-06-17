@@ -1,1 +1,1 @@
-web:gunicorn todo.wsgi:application --logo-file ---log-level debug
+web:gunicorn todo.wsgi:application 
