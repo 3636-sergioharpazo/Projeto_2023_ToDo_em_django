@@ -10,7 +10,7 @@
             <div class="card-body">
                 <h4 class="card-title text-center">Registre-se para usar o To Do</h4>
         
-                <form method="post">
+                <form method="POST">
                     {% csrf_token %}
                     <input type="hidden" name="next" value="{{ next }}">
 
